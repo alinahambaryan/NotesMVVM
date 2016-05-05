@@ -1,0 +1,5 @@
+github "Swinject/Swinject" ~> 1.1.0
+github "thoughtbot/Argo"
+github "Alamofire/Alamofire" ~> 3.3
+github "ReactiveCocoa/ReactiveCocoa"
+github "ReactiveX/RxSwift" ~> 2.0
