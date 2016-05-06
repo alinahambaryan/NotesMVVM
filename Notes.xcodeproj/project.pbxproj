@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ABA96068F88E7FA2612CA788 /* BaseWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9639EE004F35201E14608 /* BaseWebService.swift */; };
+		ABA96069E81C36BCBFB9C5A2 /* NoteAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9688F7AA657796E63C284 /* NoteAssembly.swift */; };
 		ABA96155572522BA93D3EC13 /* NoteServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96446458E2229FC49BE6F /* NoteServicing.swift */; };
 		ABA9619CF77B18F90F2BF055 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9660534D9DD57C55EA7B6 /* Note.swift */; };
+		ABA962F19A42337AC2981B53 /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96B0C67AC7F4638F2541E /* SwinjectStoryboard+Setup.swift */; };
 		ABA96410F743762C4F8767EF /* UserMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96A60F42649E6B0000F53 /* UserMockService.swift */; };
+		ABA9655F2626EFD49CA7F70A /* UserAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96BB16D8848ACDD54623C /* UserAssembly.swift */; };
 		ABA9666E74FA06091F407377 /* NoteWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96BF12EC2469B8A1DED76 /* NoteWebService.swift */; };
 		ABA96680428FDB6F30814318 /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA965ED65C3569524391C97 /* NoteListViewModel.swift */; };
 		ABA9682159F9CDBB73A4F1AA /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = ABA961D6B29AEB5417C8BAD3 /* User.json */; };
@@ -27,19 +30,24 @@
 		C90ED70C1CD8C36A0098E93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED70A1CD8C36A0098E93A /* LaunchScreen.storyboard */; };
 		C90ED7111CD8CEF60098E93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED7101CD8CEF60098E93A /* Main.storyboard */; };
 		C90ED7131CD8CF300098E93A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90ED7121CD8CF300098E93A /* SplashViewController.swift */; };
-		C90EDADE1CD9ED7B0098E93A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDADD1CD9ED7B0098E93A /* RxCocoa.framework */; };
-		C90EDAE01CD9EDA60098E93A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDADF1CD9EDA60098E93A /* RxSwift.framework */; };
-		C90EDAE11CD9EDDF0098E93A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDADF1CD9EDA60098E93A /* RxSwift.framework */; };
-		C90EDAE21CD9EE120098E93A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDADF1CD9EDA60098E93A /* RxSwift.framework */; };
-		C90EDAE51CD9EE120098E93A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDAE31CD9EE120098E93A /* Alamofire.framework */; };
-		C90EDAE61CD9EE120098E93A /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDAE41CD9EE120098E93A /* Argo.framework */; };
-		C90EDAE81CD9F3570098E93A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDAE71CD9F3570098E93A /* Result.framework */; };
 		C90EDAFC1CDA2A100098E93A /* NoteNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDAFB1CDA2A100098E93A /* NoteNetworking.swift */; };
 		C90EDAFE1CDB30040098E93A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDAFD1CDB30040098E93A /* Networking.swift */; };
 		C90EDB021CDB664A0098E93A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDB011CDB664A0098E93A /* UserViewModel.swift */; };
-		C90EDB061CDB6B070098E93A /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDB051CDB6B070098E93A /* SwinjectStoryboard+Setup.swift */; };
-		C90EDB071CDB6F4D0098E93A /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90EDB031CDB69D70098E93A /* Swinject.framework */; };
 		C90EDB0A1CDB772C0098E93A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDB091CDB772C0098E93A /* LoginViewController.swift */; };
+		C94174841CDCB5810060A282 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94174831CDCB5810060A282 /* Curry.framework */; };
+		C94174861CDCB58B0060A282 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94174851CDCB58B0060A282 /* Alamofire.framework */; };
+		C94174881CDCB5920060A282 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94174871CDCB5920060A282 /* Argo.framework */; };
+		C941748C1CDCB5A50060A282 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C941748B1CDCB5A50060A282 /* RxSwift.framework */; };
+		C941748E1CDCB5CB0060A282 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C941748D1CDCB5CB0060A282 /* Swinject.framework */; };
+		C94174901CDCB5E50060A282 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C941748F1CDCB5E50060A282 /* Result.framework */; };
+		C94174921CDCB6270060A282 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94174911CDCB6270060A282 /* RxCocoa.framework */; };
+		C94174931CDCBA3A0060A282 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94174831CDCB5810060A282 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C94174941CDCBA5D0060A282 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94174911CDCB6270060A282 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C94174951CDCBA650060A282 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C941748B1CDCB5A50060A282 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C94174961CDCBA690060A282 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C941748F1CDCB5E50060A282 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C94174971CDCBA6E0060A282 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C941748D1CDCB5CB0060A282 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C94174981CDCBA770060A282 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94174871CDCB5920060A282 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C941749A1CDCBA900060A282 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94174851CDCB58B0060A282 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C99EFD911CD74F6300D84D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EFD901CD74F6300D84D1D /* AppDelegate.swift */; };
 		C99EFD981CD74F6300D84D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99EFD971CD74F6300D84D1D /* Assets.xcassets */; };
 		C99EFDA61CD74F6300D84D1D /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EFDA51CD74F6300D84D1D /* NotesTests.swift */; };
@@ -162,6 +170,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C941749A1CDCBA900060A282 /* Alamofire.framework in Embed Frameworks */,
+				C94174981CDCBA770060A282 /* Argo.framework in Embed Frameworks */,
+				C94174971CDCBA6E0060A282 /* Swinject.framework in Embed Frameworks */,
+				C94174961CDCBA690060A282 /* Result.framework in Embed Frameworks */,
+				C94174951CDCBA650060A282 /* RxSwift.framework in Embed Frameworks */,
+				C94174941CDCBA5D0060A282 /* RxCocoa.framework in Embed Frameworks */,
+				C94174931CDCBA3A0060A282 /* Curry.framework in Embed Frameworks */,
 				C99EFE401CD7502200D84D1D /* Model.framework in Embed Frameworks */,
 				C99EFE621CD7509800D84D1D /* View.framework in Embed Frameworks */,
 				C99EFE1E1CD7501100D84D1D /* ViewModel.framework in Embed Frameworks */,
@@ -178,11 +193,14 @@
 		ABA965ED65C3569524391C97 /* NoteListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
 		ABA9660534D9DD57C55EA7B6 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		ABA966073A8507D5D29D2229 /* UserServicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServicing.swift; sourceTree = "<group>"; };
+		ABA9688F7AA657796E63C284 /* NoteAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteAssembly.swift; sourceTree = "<group>"; };
 		ABA96A4799B126641E5F6E09 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ABA96A60F42649E6B0000F53 /* UserMockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMockService.swift; sourceTree = "<group>"; };
 		ABA96AD021603324ACE4B340 /* NoteMockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteMockService.swift; sourceTree = "<group>"; };
+		ABA96B0C67AC7F4638F2541E /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
 		ABA96B7522A03AE308842CA0 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		ABA96BB0D9298FCA6DA324EA /* NoteList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NoteList.json; sourceTree = "<group>"; };
+		ABA96BB16D8848ACDD54623C /* UserAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAssembly.swift; sourceTree = "<group>"; };
 		ABA96BF12EC2469B8A1DED76 /* NoteWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteWebService.swift; sourceTree = "<group>"; };
 		ABA96D2408E6E370216E9172 /* Note.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Note.json; sourceTree = "<group>"; };
 		ABA96F15B8FA4F88A6B337B8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -192,18 +210,17 @@
 		C90ED70B1CD8C36A0098E93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90ED7101CD8CEF60098E93A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Notes/Main.storyboard; sourceTree = "<group>"; };
 		C90ED7121CD8CF300098E93A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		C90EDADD1CD9ED7B0098E93A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		C90EDADF1CD9EDA60098E93A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		C90EDAE31CD9EE120098E93A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		C90EDAE41CD9EE120098E93A /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
-		C90EDAE71CD9F3570098E93A /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		C90EDAF31CDA11BB0098E93A /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = "<group>"; };
 		C90EDAFB1CDA2A100098E93A /* NoteNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteNetworking.swift; sourceTree = "<group>"; };
 		C90EDAFD1CDB30040098E93A /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		C90EDB011CDB664A0098E93A /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
-		C90EDB031CDB69D70098E93A /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
-		C90EDB051CDB6B070098E93A /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
 		C90EDB091CDB772C0098E93A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C94174831CDCB5810060A282 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = "<group>"; };
+		C94174851CDCB58B0060A282 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C94174871CDCB5920060A282 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		C941748B1CDCB5A50060A282 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		C941748D1CDCB5CB0060A282 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		C941748F1CDCB5E50060A282 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		C94174911CDCB6270060A282 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		C99EFD8D1CD74F6300D84D1D /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99EFD901CD74F6300D84D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99EFD971CD74F6300D84D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -239,10 +256,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90EDB071CDB6F4D0098E93A /* Swinject.framework in Frameworks */,
+				C94174841CDCB5810060A282 /* Curry.framework in Frameworks */,
 				C99EFE3F1CD7502200D84D1D /* Model.framework in Frameworks */,
 				C99EFE611CD7509800D84D1D /* View.framework in Frameworks */,
+				C94174861CDCB58B0060A282 /* Alamofire.framework in Frameworks */,
+				C941748C1CDCB5A50060A282 /* RxSwift.framework in Frameworks */,
+				C941748E1CDCB5CB0060A282 /* Swinject.framework in Frameworks */,
+				C94174901CDCB5E50060A282 /* Result.framework in Frameworks */,
 				C99EFE1D1CD7501100D84D1D /* ViewModel.framework in Frameworks */,
+				C94174921CDCB6270060A282 /* RxCocoa.framework in Frameworks */,
+				C94174881CDCB5920060A282 /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +287,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90EDAE11CD9EDDF0098E93A /* RxSwift.framework in Frameworks */,
 				C99EFE6A1CD750FF00D84D1D /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,9 +303,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90EDAE51CD9EE120098E93A /* Alamofire.framework in Frameworks */,
-				C90EDAE61CD9EE120098E93A /* Argo.framework in Frameworks */,
-				C90EDAE21CD9EE120098E93A /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,9 +318,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90EDAE81CD9F3570098E93A /* Result.framework in Frameworks */,
-				C90EDAE01CD9EDA60098E93A /* RxSwift.framework in Frameworks */,
-				C90EDADE1CD9ED7B0098E93A /* RxCocoa.framework in Frameworks */,
 				C99EFE691CD750F700D84D1D /* ViewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +333,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABA963149986E5D57984B8D9 /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				ABA96B0C67AC7F4638F2541E /* SwinjectStoryboard+Setup.swift */,
+				ABA96BB16D8848ACDD54623C /* UserAssembly.swift */,
+				ABA9688F7AA657796E63C284 /* NoteAssembly.swift */,
+			);
+			path = Injection;
+			sourceTree = "<group>";
+		};
 		ABA96362BF01D1928F931D94 /* UserServicing */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,16 +467,24 @@
 			path = Notes;
 			sourceTree = "<group>";
 		};
+		C94174821CDCB5150060A282 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C94174911CDCB6270060A282 /* RxCocoa.framework */,
+				C941748F1CDCB5E50060A282 /* Result.framework */,
+				C941748D1CDCB5CB0060A282 /* Swinject.framework */,
+				C941748B1CDCB5A50060A282 /* RxSwift.framework */,
+				C94174871CDCB5920060A282 /* Argo.framework */,
+				C94174851CDCB58B0060A282 /* Alamofire.framework */,
+				C94174831CDCB5810060A282 /* Curry.framework */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C99EFD841CD74F6300D84D1D = {
 			isa = PBXGroup;
 			children = (
-				C90EDB031CDB69D70098E93A /* Swinject.framework */,
-				C90EDAF31CDA11BB0098E93A /* Curry.framework */,
-				C90EDAE71CD9F3570098E93A /* Result.framework */,
-				C90EDADF1CD9EDA60098E93A /* RxSwift.framework */,
-				C90EDADD1CD9ED7B0098E93A /* RxCocoa.framework */,
-				C90EDAE31CD9EE120098E93A /* Alamofire.framework */,
-				C90EDAE41CD9EE120098E93A /* Argo.framework */,
+				C94174821CDCB5150060A282 /* Resources */,
 				C99EFD8F1CD74F6300D84D1D /* Notes */,
 				C99EFE4D1CD7509800D84D1D /* View */,
 				C99EFE091CD7501100D84D1D /* ViewModel */,
@@ -487,7 +521,7 @@
 				C90ED7121CD8CF300098E93A /* SplashViewController.swift */,
 				C99EFD971CD74F6300D84D1D /* Assets.xcassets */,
 				C99EFD9C1CD74F6300D84D1D /* Info.plist */,
-				C90EDB051CDB6B070098E93A /* SwinjectStoryboard+Setup.swift */,
+				ABA963149986E5D57984B8D9 /* Injection */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -926,7 +960,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Curry.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 			);
@@ -945,8 +978,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99EFD911CD74F6300D84D1D /* AppDelegate.swift in Sources */,
-				C90EDB061CDB6B070098E93A /* SwinjectStoryboard+Setup.swift in Sources */,
 				C90ED7131CD8CF300098E93A /* SplashViewController.swift in Sources */,
+				ABA962F19A42337AC2981B53 /* SwinjectStoryboard+Setup.swift in Sources */,
+				ABA9655F2626EFD49CA7F70A /* UserAssembly.swift in Sources */,
+				ABA96069E81C36BCBFB9C5A2 /* NoteAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1203,6 +1238,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1219,6 +1255,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

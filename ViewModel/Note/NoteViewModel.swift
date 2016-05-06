@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-protocol NoteViewModeling {
+public protocol NoteViewModeling {
 
     var title: String {get}
     var subtitle: String? {get}
@@ -14,12 +14,12 @@ protocol NoteViewModeling {
     var service: NoteServicing {get}
 }
 
-class NoteViewModel : NoteViewModeling {
+public class NoteViewModel : NoteViewModeling {
 
-    var title: String
-    var subtitle: String?
-    var image: UIImage?
-    var service: NoteServicing
+    public var title: String
+    public var subtitle: String?
+    public var image: UIImage?
+    public var service: NoteServicing
 
     init(title:String, subtitle: String, image:UIImage, service : NoteServicing) {
         self.title = title

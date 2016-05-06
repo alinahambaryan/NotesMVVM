@@ -7,17 +7,17 @@ import Foundation
 import RxSwift
 
 
-protocol NoteListViewModeling {
+public protocol NoteListViewModeling {
     var notes:[NoteViewModel]? {get}
     var service: NoteServicing {get}
 }
 
-class NoteListViewModel: /*ViewModel<NoteServicing>,*/ NoteListViewModeling {
+public class NoteListViewModel: /*ViewModel<NoteServicing>,*/ NoteListViewModeling {
 
-    var notes: [NoteViewModel]?
-    var service: NoteServicing
+    public var notes: [NoteViewModel]?
+    public var service: NoteServicing
 
-    init(service: NoteServicing) {
+    public init(service: NoteServicing) {
         self.service = service
     }
 

@@ -8,7 +8,7 @@ import RxSwift
 
 public protocol NoteServicing {
 
-    func read ()//-> [Note] //Observable<[Note]>
+      func read () -> [Note] //Observable<[Note]>
   //  func read (id: String) -> Note // Observable <Note>
   //  func create (title :String, subtitle : String, details: String )
   //  func delete (id: String)

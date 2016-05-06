@@ -2,139 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d839d1ed-d589-49de-b171-2ede41228fdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Alamofire" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Argo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/arm.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/arm.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/arm64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/arm64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/i386.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/i386.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/Argo.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/arm.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/arm.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/arm64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/arm64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/i386.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/i386.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Result" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/i386.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/i386.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/RxCocoa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/i386.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/i386.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/RxSwift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/arm.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/arm.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/arm64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/arm64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/i386.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/i386.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/Swinject.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Curry" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Modules/Curry.swiftmodule/x86_64.swiftdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Modules/Curry.swiftmodule/x86_64.swiftmodule" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Headers/Argo-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Headers/Argo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Argo.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Headers/Result-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Headers/Result.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Result.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Headers/RxCocoa-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Headers/RxCocoa.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Headers/_RX.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Headers/_RXDelegateProxy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Headers/_RXKVOObserver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Headers/_RXObjCRuntime.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxCocoa.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Headers/RxSwift-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/RxSwift.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Headers/Swinject-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Headers/Swinject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Headers/_SwinjectStoryboardBase.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Build/iOS/Swinject.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Checkouts/RxSwift/RxExample/RxExample/RxExample.xcdatamodeld/.xccurrentversion" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carthage/Checkouts/RxSwift/RxExample/RxExample/RxExample.xcdatamodeld/RxExample.xcdatamodel/contents" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Headers/Curry-Swift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Headers/Curry-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Headers/Curry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Curry.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Entities/JSONS/Note.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Entities/JSONS/NoteList.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Entities/JSONS/User.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Entities/Note/Note.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Entities/User/User.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Model.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteNetworking.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteServicing.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteWebService.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/UserServicing/UserMockService.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/UserServicing/UserServicing.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/UserServicing/UserWebService.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/WebServiceSupporters/BaseWebService.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Services/WebServiceSupporters/Networking.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModelTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModelTests/ModelTests.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/SplashViewController.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/SwinjectStoryboard+Setup.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/Base/BaseViewController.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/Login/LoginViewController.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/Notes/NotesViewController.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/View.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModel/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModel/User/UserViewModel.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModel/ViewModel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModelTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewModelTests/ViewModelTests.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ViewTests/ViewTests.swift" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/Notes/Main.storyboard" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/ViewController.swift" afterPath="$PROJECT_DIR$/View/ViewController.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Injection/UserAssembly.swift" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/SwinjectStoryboard+Setup.swift" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notes.iml" afterPath="$PROJECT_DIR$/.idea/Notes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteServicing.swift" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteServicing.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Notes.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.xcodeproj/xcuserdata/alinah.xcuserdatad/xcschemes/Notes.xcscheme" afterPath="$PROJECT_DIR$/Notes.xcodeproj/xcuserdata/alinah.xcuserdatad/xcschemes/Notes.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.xcodeproj/xcuserdata/alinah.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Notes.xcodeproj/xcuserdata/alinah.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Base.lproj/LaunchScreen.storyboard" afterPath="$PROJECT_DIR$/Notes/Base.lproj/LaunchScreen.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Info.plist" afterPath="$PROJECT_DIR$/Notes/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/Base/BaseViewController.swift" afterPath="$PROJECT_DIR$/View/Base/BaseViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/Notes/NotesViewController.swift" afterPath="$PROJECT_DIR$/View/Notes/NotesViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" afterPath="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift" afterPath="$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift" />
     </list>
     <ignored path="Notes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NoteWebService.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/Services/NoteServicing/NoteWebService.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Note.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/Entities/Note/Note.swift">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,20 +42,6 @@
               <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <marker date="1462360844000" expanded="true" signature="1125:1127" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteViewModel.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <marker date="1462460679000" expanded="true" signature="108:138" placeholder="import ..." />
-                <marker date="1462460679000" expanded="true" signature="166:221" placeholder="{...}" />
-                <marker date="1462460679000" expanded="true" signature="1134:1136" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.swift" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/Entities/User/User.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="133">
               <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#108#125#0" expanded="true" />
@@ -214,10 +70,36 @@
         </entry>
       </file>
       <file leaf-file-name="SwinjectStoryboard+Setup.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/SwinjectStoryboard+Setup.swift">
+        <entry file="file://$PROJECT_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="171">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <marker date="1462530160000" expanded="true" signature="156:228" placeholder="import ..." />
+                <marker date="1462530160000" expanded="true" signature="259:295" placeholder="{...}" />
+                <marker date="1462530160000" expanded="true" signature="285:295" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAssembly.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notes/Injection/UserAssembly.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1462527523000" expanded="true" signature="0:106" placeholder="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteAssembly.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -237,18 +119,11 @@
         <entry file="file://$PROJECT_DIR$/View/Notes/NotesViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseViewController.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/View/Base/BaseViewController.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1462528572000" expanded="true" signature="0:106" placeholder="//..." />
+                <marker date="1462528572000" expanded="true" signature="227:230" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -297,6 +172,9 @@
         <option value="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" />
         <option value="$PROJECT_DIR$/View/Login/LoginViewController.swift" />
         <option value="$PROJECT_DIR$/View/Notes/NotesViewController.swift" />
+        <option value="$PROJECT_DIR$/Notes/Injection/InjectionAssembly.swift" />
+        <option value="$PROJECT_DIR$/Notes/Injection/UserAssembly.swift" />
+        <option value="$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift" />
       </list>
     </option>
   </component>
@@ -307,7 +185,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2055" />
+    <option name="x" value="2048" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -337,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -345,13 +222,18 @@
               <option name="myItemId" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Model" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Notes" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -442,28 +324,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2055" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="2048" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25976768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3869611" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25976768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3869611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -482,14 +364,106 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Model/Services/NoteServicing/NoteWebService.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Entities/Note/Note.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <marker date="1462360844000" expanded="true" signature="1125:1127" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#108#125#0" expanded="false" />
+            <marker date="1462517480000" expanded="true" signature="1176:1178" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Entities/User/User.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#108#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <marker date="1462530160000" expanded="true" signature="156:228" placeholder="import ..." />
+            <marker date="1462530160000" expanded="true" signature="259:295" placeholder="{...}" />
+            <marker date="1462530160000" expanded="true" signature="285:295" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/SplashViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Notes/NotesViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1462528572000" expanded="true" signature="0:106" placeholder="//..." />
+            <marker date="1462528572000" expanded="true" signature="227:230" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Base/BaseViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <marker date="1462520952000" expanded="true" signature="0:106" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Login/LoginViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Services/UserServicing/UserWebService.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1462448537000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1462448537000" expanded="true" signature="167:250" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,10 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1462460550000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1462460550000" expanded="true" signature="444:446" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,9 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1462461717000" expanded="true" signature="407:409" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +516,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#108#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="41" column="18" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,9 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1462448511000" expanded="true" signature="157:252" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,10 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1462448537000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1462448537000" expanded="true" signature="167:250" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,10 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1462448537000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1462448537000" expanded="true" signature="171:173" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,35 +570,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1462461717000" expanded="true" signature="407:409" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Services/WebServiceSupporters/Routing.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Services/WebServiceSupporters/Route.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Services/WebServiceSupporters/Routing.swift" />
+    <entry file="file://$PROJECT_DIR$/Model/Services/WebServiceSupporters/Route.swift" />
     <entry file="file://$PROJECT_DIR$/Model/Services/WebServiceSupporters/BaseWebService.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1462435821000" expanded="true" signature="0:106" placeholder="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <marker date="1462435821000" expanded="true" signature="142:203" placeholder="import ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,10 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1462460550000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1462460550000" expanded="true" signature="444:446" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,39 +604,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ViewModel/Base/ViewModel.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ViewModel/Base/ViewModel.swift" />
     <entry file="file://$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="950">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1462460679000" expanded="true" signature="108:138" placeholder="import ..." />
-            <marker date="1462460679000" expanded="true" signature="166:221" placeholder="{...}" />
-            <marker date="1462460679000" expanded="true" signature="1134:1136" placeholder="{...}" />
+            <element signature="e#108#125#0" expanded="false" />
+            <marker date="1462517480000" expanded="true" signature="1176:1178" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Login/LoginViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Login/LoginViewController.h" />
     <entry file="file://$PROJECT_DIR$/View/Base/BaseViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1462520952000" expanded="true" signature="0:106" placeholder="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -726,8 +638,11 @@
     <entry file="file://$PROJECT_DIR$/View/Notes/NotesViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1462528572000" expanded="true" signature="0:106" placeholder="//..." />
+            <marker date="1462528572000" expanded="true" signature="227:230" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,21 +672,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/SwinjectStoryboard+Setup.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Entities/User/User.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="133">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#108#125#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/InjectionAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/InjectionAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <marker date="1462530160000" expanded="true" signature="156:228" placeholder="import ..." />
+            <marker date="1462530160000" expanded="true" signature="259:295" placeholder="{...}" />
+            <marker date="1462530160000" expanded="true" signature="285:295" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/InjectionAssembly.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="0" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/UserAssembly.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1462527523000" expanded="true" signature="0:106" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

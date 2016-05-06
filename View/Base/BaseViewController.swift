@@ -5,6 +5,6 @@
 
 import UIKit
 
-class BaseViewController : UIViewController {
+public class BaseViewController : UIViewController {
     
 }

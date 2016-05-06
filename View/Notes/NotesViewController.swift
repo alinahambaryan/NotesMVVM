@@ -5,6 +5,8 @@
 
 import UIKit
 
-class NotesViewController : BaseViewController {
+public class NotesViewController : BaseViewController {
+
+    public var viewModel : NoteListViewModeling?
 
 }

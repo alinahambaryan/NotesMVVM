@@ -6,14 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/NotesUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NotesTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NotesTests/NotesTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/Login/LoginViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/View.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/Base/BaseViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/Notes/NotesViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ModelTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ModelTests/ModelTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ViewModelTests/ViewModelTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ViewModelTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Entities/User/User.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Entities/JSONS/Note.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Entities/JSONS/NoteList.json" isTestSource="false" />
@@ -24,30 +20,35 @@
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/NoteServicing/NoteNetworking.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/NoteServicing/NoteWebService.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/NoteServicing/NoteMockService.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Model/Services/WebServiceSupporters/BaseWebService.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Model/Services/WebServiceSupporters/Networking.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/UserServicing/UserServicing.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/UserServicing/UserMockService.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/UserServicing/UserWebService.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Model/Services/WebServiceSupporters/BaseWebService.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Model/Services/WebServiceSupporters/Networking.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/Login/LoginViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/View.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/Base/BaseViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/Notes/NotesViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Injection/NoteAssembly.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Injection/UserAssembly.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Notes/SplashViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewModel/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewModel/User/UserViewModel.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewModel/ViewModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewModel/Note/NoteViewModel.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewModel/Note/NoteListViewModel.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/SwinjectStoryboard+Setup.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Notes/SplashViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ViewModelTests/ViewModelTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ViewModelTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewTests/ViewTests.swift" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/Notes-gipoxelnbfmswrcbyoivufvaahqn/Build/Intermediates/Notes.build/Debug-iphoneos/Model.build/DerivedSources" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
