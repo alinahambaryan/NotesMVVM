@@ -20,6 +20,7 @@ extension SwinjectStoryboard {
     }
 
     class func registerForNotes() {
+
         defaultContainer.registerForStoryboard(NotesViewController.self) { _ , vc in
             let assembler = try!Assembler.init(assemblies: [NoteServiceAssembly(), NoteViewModelAssembly()])
             vc.viewModel =  assembler.resolver.resolve(NoteListViewModeling.self)

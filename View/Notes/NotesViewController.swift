@@ -9,4 +9,7 @@ public class NotesViewController : BaseViewController {
 
     public var viewModel : NoteListViewModeling?
 
+    public override func viewDidLoad() {
+        print("hello")
+    }
 }

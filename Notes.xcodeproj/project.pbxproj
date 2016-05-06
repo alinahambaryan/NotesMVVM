@@ -484,17 +484,17 @@
 		C99EFD841CD74F6300D84D1D = {
 			isa = PBXGroup;
 			children = (
-				C94174821CDCB5150060A282 /* Resources */,
-				C99EFD8F1CD74F6300D84D1D /* Notes */,
-				C99EFE4D1CD7509800D84D1D /* View */,
-				C99EFE091CD7501100D84D1D /* ViewModel */,
 				C99EFE2B1CD7502200D84D1D /* Model */,
+				C99EFE391CD7502200D84D1D /* ModelTests */,
+				C99EFD8F1CD74F6300D84D1D /* Notes */,
 				C99EFDA41CD74F6300D84D1D /* NotesTests */,
 				C99EFDAF1CD74F6300D84D1D /* NotesUITests */,
-				C99EFE171CD7501100D84D1D /* ViewModelTests */,
-				C99EFE391CD7502200D84D1D /* ModelTests */,
-				C99EFE5B1CD7509800D84D1D /* ViewTests */,
 				C99EFD8E1CD74F6300D84D1D /* Products */,
+				C94174821CDCB5150060A282 /* Resources */,
+				C99EFE4D1CD7509800D84D1D /* View */,
+				C99EFE091CD7501100D84D1D /* ViewModel */,
+				C99EFE171CD7501100D84D1D /* ViewModelTests */,
+				C99EFE5B1CD7509800D84D1D /* ViewTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -563,7 +563,7 @@
 				C99EFE1A1CD7501100D84D1D /* Info.plist */,
 			);
 			path = ViewModelTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		C99EFE2B1CD7502200D84D1D /* Model */ = {
 			isa = PBXGroup;
