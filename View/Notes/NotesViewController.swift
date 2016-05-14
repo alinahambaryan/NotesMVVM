@@ -4,12 +4,14 @@
 //
 
 import UIKit
+import ViewModel
 
 public class NotesViewController : BaseViewController {
 
     public var viewModel : NoteListViewModeling?
 
     public override func viewDidLoad() {
+        viewModel?.service.read()
         print("hello")
     }
 }

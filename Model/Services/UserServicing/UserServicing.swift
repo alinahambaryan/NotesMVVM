@@ -7,6 +7,6 @@ import Foundation
 
 public protocol UserServicing {
 
-    func read (id:String)-> User
-    func create (login: String, password: String) -> User
+    func read (id:String)/* -> User*/
+//    func create (login: String, password: String) -> User
 }

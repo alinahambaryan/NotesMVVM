@@ -7,7 +7,13 @@
 //
 
 import UIKit
+import ViewModel
 
-class LoginViewController : UIViewController {
+public class LoginViewController : BaseViewController {
 
+    public var viewModel : UserViewModeling?
+
+    public override func viewDidLoad() {
+        print("hello")
+    }
 }

@@ -15,7 +15,6 @@ import Model
 extension SwinjectStoryboard {
 
     class func setup() {
-        registerForUser()
         registerForNotes()
     }
 
@@ -27,6 +26,12 @@ extension SwinjectStoryboard {
         }
     }
 
-    class func registerForUser() {}
+    class func registerForUser() {
+
+        defaultContainer.registerForStoryboard(LoginViewController.self) { _ , vc in
+//            let assembler = try!Assembler.init(assemblies: [NoteServiceAssembly(), NoteViewModelAssembly()])
+//            vc.viewModel =  assembler.resolver.resolve(UserViewModeling.self)
+        }
+    }
 }
 

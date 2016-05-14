@@ -5,15 +5,9 @@
 
 import Foundation
 
-class UserWebService/*: UserServicing*/ {
+class UserWebService: UserServicing {
 
-    func update() {
-
-    }
-    func create() {
-
-    }
-    func read() {
+    func read(id: String)/* -> User*/ {
 
     }
 }

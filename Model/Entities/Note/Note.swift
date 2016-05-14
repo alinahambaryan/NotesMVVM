@@ -9,16 +9,16 @@ import Curry
 
 public struct Note: Decodable {
 
-    public let noteId: String
+    public let noteId: NSInteger
     public let title: String
     public let subtitle: String
     public let details: String
-    public let userId: String
+    public let userId: NSInteger
     public let userFullName: String
 
-    public let createdDate: String
-    public let updatedDate  : String
-    public let publishedDate: String
+    public let createdDate: NSInteger
+    public let updatedDate  : NSInteger
+    public let publishedDate: NSInteger
 
     public let isPublic: Bool
     public let tags:[String]
@@ -28,7 +28,7 @@ public struct Note: Decodable {
         let decoded = curry(Note.init)
 
         return decoded
-            <^> json <| "id"
+            <^> json <| "noteId"
             <*> json <| "title"
             <*> json <| "subtitle"
             <*> json <| "details"

@@ -7,9 +7,9 @@ import Foundation
 import Swinject
 import Model
 
-class UserAssembly : AssemblyType {
+class UserServiceAssembly : AssemblyType {
 
     func assemble(container: Container) {
-       // container.register(NoteServicing.self) { r in NoteMockService().self}
+//        container.register(UserServicing.self) { r in UserMockService()}
     }
 }

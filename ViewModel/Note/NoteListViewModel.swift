@@ -5,14 +5,14 @@
 
 import Foundation
 import RxSwift
-
+import Model
 
 public protocol NoteListViewModeling {
     var notes:[NoteViewModel]? {get}
     var service: NoteServicing {get}
 }
 
-public class NoteListViewModel: /*ViewModel<NoteServicing>,*/ NoteListViewModeling {
+public class NoteListViewModel: NoteListViewModeling {
 
     public var notes: [NoteViewModel]?
     public var service: NoteServicing

@@ -15,20 +15,13 @@
 		ABA96410F743762C4F8767EF /* UserMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96A60F42649E6B0000F53 /* UserMockService.swift */; };
 		ABA9655F2626EFD49CA7F70A /* UserAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96BB16D8848ACDD54623C /* UserAssembly.swift */; };
 		ABA9666E74FA06091F407377 /* NoteWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96BF12EC2469B8A1DED76 /* NoteWebService.swift */; };
-		ABA96680428FDB6F30814318 /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA965ED65C3569524391C97 /* NoteListViewModel.swift */; };
 		ABA9682159F9CDBB73A4F1AA /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = ABA961D6B29AEB5417C8BAD3 /* User.json */; };
-		ABA969884BEC8EE5B1A6865D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96F15B8FA4F88A6B337B8 /* BaseViewController.swift */; };
 		ABA969E73FFCBD6468D9EA53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96A4799B126641E5F6E09 /* User.swift */; };
 		ABA96A89FF3861CA42CF103B /* NoteMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96AD021603324ACE4B340 /* NoteMockService.swift */; };
 		ABA96B663BDE5DB4B40D1AE8 /* NoteList.json in Resources */ = {isa = PBXBuildFile; fileRef = ABA96BB0D9298FCA6DA324EA /* NoteList.json */; };
 		ABA96BF988513B467D823266 /* UserServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA966073A8507D5D29D2229 /* UserServicing.swift */; };
 		ABA96BFC91415C35672B85D7 /* UserWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96F6396EC3EADD8A9D281 /* UserWebService.swift */; };
 		ABA96D18F7A2BFEBBA522B46 /* Note.json in Resources */ = {isa = PBXBuildFile; fileRef = ABA96D2408E6E370216E9172 /* Note.json */; };
-		ABA96F0CCBDAF77AC5F53804 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96F8CEE59CE3D1EFC568D /* NoteViewModel.swift */; };
-		ABA96FC55D8066ECF9C29C49 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96B7522A03AE308842CA0 /* NotesViewController.swift */; };
-		C90ED7091CD8C1C70098E93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90ED7081CD8C1C70098E93A /* ViewController.swift */; };
-		C90ED70C1CD8C36A0098E93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED70A1CD8C36A0098E93A /* LaunchScreen.storyboard */; };
-		C90ED7111CD8CEF60098E93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED7101CD8CEF60098E93A /* Main.storyboard */; };
 		C90ED7131CD8CF300098E93A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90ED7121CD8CF300098E93A /* SplashViewController.swift */; };
 		C90EDAFC1CDA2A100098E93A /* NoteNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDAFB1CDA2A100098E93A /* NoteNetworking.swift */; };
 		C90EDAFE1CDB30040098E93A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90EDAFD1CDB30040098E93A /* Networking.swift */; };
@@ -48,6 +41,18 @@
 		C94174971CDCBA6E0060A282 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C941748D1CDCB5CB0060A282 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C94174981CDCBA770060A282 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94174871CDCB5920060A282 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C941749A1CDCBA900060A282 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94174851CDCB58B0060A282 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C941749D1CDCEEBA0060A282 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96F15B8FA4F88A6B337B8 /* BaseViewController.swift */; };
+		C941749E1CDCEF050060A282 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96F8CEE59CE3D1EFC568D /* NoteViewModel.swift */; };
+		C941749F1CDCEF050060A282 /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA965ED65C3569524391C97 /* NoteListViewModel.swift */; };
+		C956E20C1CE5EB7D00E58A95 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956E20B1CE5EB7D00E58A95 /* NoteList.swift */; };
+		C977C32B1CE3261800EB82E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED7101CD8CEF60098E93A /* Main.storyboard */; };
+		C977C32C1CE3261F00EB82E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED70A1CD8C36A0098E93A /* LaunchScreen.storyboard */; };
+		C977C32D1CE3262600EB82E9 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = C99EFE4E1CD7509800D84D1D /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C977C3331CE3295B00EB82E9 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C977C3321CE3295B00EB82E9 /* InitialViewController.swift */; };
+		C98581AB1CE1BFB6009F63A5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94174851CDCB58B0060A282 /* Alamofire.framework */; };
+		C98581AC1CE1BFB6009F63A5 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94174871CDCB5920060A282 /* Argo.framework */; };
+		C98581AD1CE1BFB6009F63A5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C941748F1CDCB5E50060A282 /* Result.framework */; };
+		C98581AF1CE1C652009F63A5 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96B7522A03AE308842CA0 /* NotesViewController.swift */; };
 		C99EFD911CD74F6300D84D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EFD901CD74F6300D84D1D /* AppDelegate.swift */; };
 		C99EFD981CD74F6300D84D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99EFD971CD74F6300D84D1D /* Assets.xcassets */; };
 		C99EFDA61CD74F6300D84D1D /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EFDA51CD74F6300D84D1D /* NotesTests.swift */; };
@@ -60,7 +65,6 @@
 		C99EFE3B1CD7502200D84D1D /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EFE3A1CD7502200D84D1D /* ModelTests.swift */; };
 		C99EFE3F1CD7502200D84D1D /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99EFE2A1CD7502200D84D1D /* Model.framework */; };
 		C99EFE401CD7502200D84D1D /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C99EFE2A1CD7502200D84D1D /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C99EFE4F1CD7509800D84D1D /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = C99EFE4E1CD7509800D84D1D /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99EFE561CD7509800D84D1D /* View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99EFE4C1CD7509800D84D1D /* View.framework */; };
 		C99EFE5D1CD7509800D84D1D /* ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99EFE5C1CD7509800D84D1D /* ViewTests.swift */; };
 		C99EFE611CD7509800D84D1D /* View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99EFE4C1CD7509800D84D1D /* View.framework */; };
@@ -70,6 +74,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C98581B11CE1C6DB009F63A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99EFD851CD74F6300D84D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99EFE291CD7502200D84D1D;
+			remoteInfo = Model;
+		};
 		C99EFDA21CD74F6300D84D1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C99EFD851CD74F6300D84D1D /* Project object */;
@@ -154,13 +165,6 @@
 			remoteGlobalIDString = C99EFE071CD7501100D84D1D;
 			remoteInfo = ViewModel;
 		};
-		C99EFE6D1CD7518B00D84D1D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C99EFD851CD74F6300D84D1D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C99EFE291CD7502200D84D1D;
-			remoteInfo = Model;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,7 +210,6 @@
 		ABA96F15B8FA4F88A6B337B8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ABA96F6396EC3EADD8A9D281 /* UserWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserWebService.swift; sourceTree = "<group>"; };
 		ABA96F8CEE59CE3D1EFC568D /* NoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
-		C90ED7081CD8C1C70098E93A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C90ED70B1CD8C36A0098E93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90ED7101CD8CEF60098E93A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Notes/Main.storyboard; sourceTree = "<group>"; };
 		C90ED7121CD8CF300098E93A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 		C941748D1CDCB5CB0060A282 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		C941748F1CDCB5E50060A282 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		C94174911CDCB6270060A282 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		C956E20B1CE5EB7D00E58A95 /* NoteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
+		C977C3321CE3295B00EB82E9 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		C99EFD8D1CD74F6300D84D1D /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99EFD901CD74F6300D84D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99EFD971CD74F6300D84D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -303,6 +308,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98581AB1CE1BFB6009F63A5 /* Alamofire.framework in Frameworks */,
+				C98581AC1CE1BFB6009F63A5 /* Argo.framework in Frameworks */,
+				C98581AD1CE1BFB6009F63A5 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				ABA9660534D9DD57C55EA7B6 /* Note.swift */,
+				C956E20B1CE5EB7D00E58A95 /* NoteList.swift */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -588,9 +597,9 @@
 		C99EFE4D1CD7509800D84D1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C977C3321CE3295B00EB82E9 /* InitialViewController.swift */,
 				C90ED70A1CD8C36A0098E93A /* LaunchScreen.storyboard */,
 				C90ED7101CD8CEF60098E93A /* Main.storyboard */,
-				C90ED7081CD8C1C70098E93A /* ViewController.swift */,
 				C99EFE4E1CD7509800D84D1D /* View.h */,
 				C99EFE501CD7509800D84D1D /* Info.plist */,
 				ABA96DB1BD5E1C0852A7B800 /* Notes */,
@@ -616,7 +625,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99EFE4F1CD7509800D84D1D /* View.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +639,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C977C32D1CE3262600EB82E9 /* View.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,7 +654,6 @@
 				C99EFD8A1CD74F6300D84D1D /* Frameworks */,
 				C99EFD8B1CD74F6300D84D1D /* Resources */,
 				C99EFDDD1CD74F7300D84D1D /* Embed Frameworks */,
-				C90EDB081CDB73EB0098E93A /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -707,7 +715,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C99EFE6E1CD7518B00D84D1D /* PBXTargetDependency */,
+				C98581B21CE1C6DB009F63A5 /* PBXTargetDependency */,
 			);
 			name = ViewModel;
 			productName = ViewModel;
@@ -883,9 +891,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90ED7111CD8CEF60098E93A /* Main.storyboard in Resources */,
 				C99EFD981CD74F6300D84D1D /* Assets.xcassets in Resources */,
-				C90ED70C1CD8C36A0098E93A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,6 +944,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C977C32B1CE3261800EB82E9 /* Main.storyboard in Resources */,
+				C977C32C1CE3261F00EB82E9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,28 +957,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C90EDB081CDB73EB0098E93A /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C99EFD891CD74F6300D84D1D /* Sources */ = {
@@ -1005,6 +991,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C941749E1CDCEF050060A282 /* NoteViewModel.swift in Sources */,
+				C941749F1CDCEF050060A282 /* NoteListViewModel.swift in Sources */,
 				C90EDB021CDB664A0098E93A /* UserViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1023,19 +1011,16 @@
 			files = (
 				C90EDAFC1CDA2A100098E93A /* NoteNetworking.swift in Sources */,
 				C90EDAFE1CDB30040098E93A /* Networking.swift in Sources */,
+				ABA96068F88E7FA2612CA788 /* BaseWebService.swift in Sources */,
+				ABA96BF988513B467D823266 /* UserServicing.swift in Sources */,
 				ABA96BFC91415C35672B85D7 /* UserWebService.swift in Sources */,
+				ABA96410F743762C4F8767EF /* UserMockService.swift in Sources */,
 				ABA96A89FF3861CA42CF103B /* NoteMockService.swift in Sources */,
+				ABA9666E74FA06091F407377 /* NoteWebService.swift in Sources */,
+				ABA96155572522BA93D3EC13 /* NoteServicing.swift in Sources */,
 				ABA969E73FFCBD6468D9EA53 /* User.swift in Sources */,
 				ABA9619CF77B18F90F2BF055 /* Note.swift in Sources */,
-				ABA96155572522BA93D3EC13 /* NoteServicing.swift in Sources */,
-				ABA96BF988513B467D823266 /* UserServicing.swift in Sources */,
-				ABA96410F743762C4F8767EF /* UserMockService.swift in Sources */,
-				ABA9666E74FA06091F407377 /* NoteWebService.swift in Sources */,
-				ABA96068F88E7FA2612CA788 /* BaseWebService.swift in Sources */,
-				ABA96F0CCBDAF77AC5F53804 /* NoteViewModel.swift in Sources */,
-				ABA96680428FDB6F30814318 /* NoteListViewModel.swift in Sources */,
-				ABA96FC55D8066ECF9C29C49 /* NotesViewController.swift in Sources */,
-				ABA969884BEC8EE5B1A6865D /* BaseViewController.swift in Sources */,
+				C956E20C1CE5EB7D00E58A95 /* NoteList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1051,8 +1036,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C977C3331CE3295B00EB82E9 /* InitialViewController.swift in Sources */,
+				C98581AF1CE1C652009F63A5 /* NotesViewController.swift in Sources */,
+				C941749D1CDCEEBA0060A282 /* BaseViewController.swift in Sources */,
 				C90EDB0A1CDB772C0098E93A /* LoginViewController.swift in Sources */,
-				C90ED7091CD8C1C70098E93A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,6 +1054,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C98581B21CE1C6DB009F63A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99EFE291CD7502200D84D1D /* Model */;
+			targetProxy = C98581B11CE1C6DB009F63A5 /* PBXContainerItemProxy */;
+		};
 		C99EFDA31CD74F6300D84D1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C99EFD8C1CD74F6300D84D1D /* Notes */;
@@ -1126,11 +1118,6 @@
 			isa = PBXTargetDependency;
 			target = C99EFE071CD7501100D84D1D /* ViewModel */;
 			targetProxy = C99EFE6B1CD7518600D84D1D /* PBXContainerItemProxy */;
-		};
-		C99EFE6E1CD7518B00D84D1D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C99EFE291CD7502200D84D1D /* Model */;
-			targetProxy = C99EFE6D1CD7518B00D84D1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1459,6 +1446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1485,6 +1473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

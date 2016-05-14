@@ -5,6 +5,7 @@
 
 import Foundation
 import UIKit
+import Model
 
 public protocol NoteViewModeling {
 

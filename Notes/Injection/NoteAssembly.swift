@@ -6,6 +6,7 @@
 import Foundation
 import Swinject
 import Model
+import ViewModel
 
 class NoteServiceAssembly : AssemblyType {
 

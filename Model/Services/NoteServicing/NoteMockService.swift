@@ -4,21 +4,28 @@
 //
 
 import Foundation
+import Argo
+import Curry
 
 public class NoteMockService : NoteServicing {
 
     public init() {}
 
-    public func read () -> [Note] {
+    public func read () -> NoteList? {
 
-        let notes = [Note]()
-        if let path = NSBundle.mainBundle().pathForResource("NoteList", ofType: "json") {
+        let myBundle = NSBundle.init(forClass: NoteMockService.self)
+
+        if let path = myBundle.pathForResource("NoteList", ofType: "json") {
             do {
                 let jsonData = try NSData(contentsOfFile: path, options: NSDataReadingOptions.DataReadingMappedIfSafe)
                 do {
-                    if let noteList = try NSJSONSerialization.JSONObjectWithData(jsonData, options: .AllowFragments) as?[String : AnyObject] {
-                        for _ in noteList {
-
+                    if let notes = try NSJSONSerialization.JSONObjectWithData(jsonData, options: .AllowFragments) as? [String : AnyObject] {
+                        let decoded : Decoded<NoteList> = decode(notes)
+                        switch decoded {
+                        case .Success(let noteList):
+                            return noteList
+                        case .Failure(let error):
+                            print(error.description)
                         }
                     }
                 }
@@ -26,20 +33,7 @@ public class NoteMockService : NoteServicing {
             }
             catch {}
         }
-        return notes
+        return nil
     }
-
-    /* func read (id: String) -> Note {
-     }
-
-     func create (title :String, subtitle : String, details: String ){
-     }
-
-     func delete (id: String){
-     }
-
-     func update (note: Note) -> [Note] {
-
-     }*/
 }
 

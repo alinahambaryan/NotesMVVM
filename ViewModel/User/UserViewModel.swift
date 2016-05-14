@@ -9,7 +9,7 @@
 import Foundation
 import Model
 
-protocol UserViewModeling {
+public protocol UserViewModeling {
     var fullName:String {get}
     var email:String {get}
     var password:String {get}
@@ -31,7 +31,7 @@ class UserViewModel : UserViewModeling {
         self.service = service
     }
 
-    func loadUser() -> User{
-       return self.service.read("1")
-    }
+//    func loadUser() -> User{
+//       return self.service.read("1")
+//    }
 }

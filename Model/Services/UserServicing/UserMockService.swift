@@ -5,6 +5,9 @@
 
 import Foundation
 
-class UserMockService /*: UserServicing*/ {
+public class UserMockService : UserServicing {
 
+    public func read(id: String)/* -> User*/ {
+
+    }
 }
