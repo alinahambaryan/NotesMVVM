@@ -25,7 +25,7 @@ public class NoteMockService : NoteServicing {
                         case .Success(let noteList):
                             return noteList
                         case .Failure(let error):
-                            print(error.description)
+                            print(error)
                         }
                     }
                 }
@@ -35,5 +35,18 @@ public class NoteMockService : NoteServicing {
         }
         return nil
     }
+
+    /* func read (id: String) -> Note {
+     }
+
+     func create (title :String, subtitle : String, details: String ){
+     }
+
+     func delete (id: String){
+     }
+
+     func update (note: Note) -> [Note] {
+
+     }*/
 }
 

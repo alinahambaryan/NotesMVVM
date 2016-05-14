@@ -13,6 +13,7 @@
 		ABA9619CF77B18F90F2BF055 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9660534D9DD57C55EA7B6 /* Note.swift */; };
 		ABA962F19A42337AC2981B53 /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96B0C67AC7F4638F2541E /* SwinjectStoryboard+Setup.swift */; };
 		ABA96410F743762C4F8767EF /* UserMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96A60F42649E6B0000F53 /* UserMockService.swift */; };
+		ABA96452FDCC698FCCACD20F /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA9645106EA959D6FFF182D /* NoteCell.swift */; };
 		ABA9655F2626EFD49CA7F70A /* UserAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96BB16D8848ACDD54623C /* UserAssembly.swift */; };
 		ABA9666E74FA06091F407377 /* NoteWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96BF12EC2469B8A1DED76 /* NoteWebService.swift */; };
 		ABA9682159F9CDBB73A4F1AA /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = ABA961D6B29AEB5417C8BAD3 /* User.json */; };
@@ -45,6 +46,7 @@
 		C941749E1CDCEF050060A282 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96F8CEE59CE3D1EFC568D /* NoteViewModel.swift */; };
 		C941749F1CDCEF050060A282 /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA965ED65C3569524391C97 /* NoteListViewModel.swift */; };
 		C956E20C1CE5EB7D00E58A95 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956E20B1CE5EB7D00E58A95 /* NoteList.swift */; };
+		C956E20E1CE74AAA00E58A95 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956E20D1CE74AAA00E58A95 /* NoteDetailViewController.swift */; };
 		C977C32B1CE3261800EB82E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED7101CD8CEF60098E93A /* Main.storyboard */; };
 		C977C32C1CE3261F00EB82E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90ED70A1CD8C36A0098E93A /* LaunchScreen.storyboard */; };
 		C977C32D1CE3262600EB82E9 /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = C99EFE4E1CD7509800D84D1D /* View.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -194,6 +196,7 @@
 		ABA961D6B29AEB5417C8BAD3 /* User.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
 		ABA9639EE004F35201E14608 /* BaseWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebService.swift; sourceTree = "<group>"; };
 		ABA96446458E2229FC49BE6F /* NoteServicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteServicing.swift; sourceTree = "<group>"; };
+		ABA9645106EA959D6FFF182D /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		ABA965ED65C3569524391C97 /* NoteListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
 		ABA9660534D9DD57C55EA7B6 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		ABA966073A8507D5D29D2229 /* UserServicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServicing.swift; sourceTree = "<group>"; };
@@ -225,6 +228,7 @@
 		C941748F1CDCB5E50060A282 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		C94174911CDCB6270060A282 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		C956E20B1CE5EB7D00E58A95 /* NoteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
+		C956E20D1CE74AAA00E58A95 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		C977C3321CE3295B00EB82E9 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		C99EFD8D1CD74F6300D84D1D /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99EFD901CD74F6300D84D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -382,6 +386,14 @@
 			path = NoteServicing;
 			sourceTree = "<group>";
 		};
+		ABA9661E3188134A6D61FA80 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ABA9645106EA959D6FFF182D /* NoteCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		ABA966AFF51218A1BFAC8E4D /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +484,7 @@
 			isa = PBXGroup;
 			children = (
 				ABA96B7522A03AE308842CA0 /* NotesViewController.swift */,
+				C956E20D1CE74AAA00E58A95 /* NoteDetailViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -605,6 +618,7 @@
 				ABA96DB1BD5E1C0852A7B800 /* Notes */,
 				ABA96A771E4F8DB34C0BF78F /* Login */,
 				ABA966AFF51218A1BFAC8E4D /* Base */,
+				ABA9661E3188134A6D61FA80 /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -968,6 +982,7 @@
 				ABA962F19A42337AC2981B53 /* SwinjectStoryboard+Setup.swift in Sources */,
 				ABA9655F2626EFD49CA7F70A /* UserAssembly.swift in Sources */,
 				ABA96069E81C36BCBFB9C5A2 /* NoteAssembly.swift in Sources */,
+				ABA96452FDCC698FCCACD20F /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1038,6 +1053,7 @@
 			files = (
 				C977C3331CE3295B00EB82E9 /* InitialViewController.swift in Sources */,
 				C98581AF1CE1C652009F63A5 /* NotesViewController.swift in Sources */,
+				C956E20E1CE74AAA00E58A95 /* NoteDetailViewController.swift in Sources */,
 				C941749D1CDCEEBA0060A282 /* BaseViewController.swift in Sources */,
 				C90EDB0A1CDB772C0098E93A /* LoginViewController.swift in Sources */,
 			);

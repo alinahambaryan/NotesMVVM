@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d839d1ed-d589-49de-b171-2ede41228fdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model/Entities/Note/NoteList.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/InitialViewController.swift" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/View/ViewController.swift" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notes.iml" afterPath="$PROJECT_DIR$/.idea/Notes.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/Cells/NoteCell.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Entities/JSONS/Note.json" afterPath="$PROJECT_DIR$/Model/Entities/JSONS/Note.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Entities/JSONS/NoteList.json" afterPath="$PROJECT_DIR$/Model/Entities/JSONS/NoteList.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Entities/Note/Note.swift" afterPath="$PROJECT_DIR$/Model/Entities/Note/Note.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteServicing.swift" afterPath="$PROJECT_DIR$/Model/Services/NoteServicing/NoteServicing.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/UserServicing/UserMockService.swift" afterPath="$PROJECT_DIR$/Model/Services/UserServicing/UserMockService.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/UserServicing/UserServicing.swift" afterPath="$PROJECT_DIR$/Model/Services/UserServicing/UserServicing.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Services/UserServicing/UserWebService.swift" afterPath="$PROJECT_DIR$/Model/Services/UserServicing/UserWebService.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Notes.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/AppDelegate.swift" afterPath="$PROJECT_DIR$/Notes/AppDelegate.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Info.plist" afterPath="$PROJECT_DIR$/Notes/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift" afterPath="$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift" afterPath="$PROJECT_DIR$/Notes/Injection/SwinjectStoryboard+Setup.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Injection/UserAssembly.swift" afterPath="$PROJECT_DIR$/Notes/Injection/UserAssembly.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.xcodeproj/xcuserdata/alinah.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/Notes.xcodeproj/xcuserdata/alinah.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Main.storyboard" afterPath="$PROJECT_DIR$/Notes/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/Login/LoginViewController.swift" afterPath="$PROJECT_DIR$/View/Login/LoginViewController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/View/Notes/NotesViewController.swift" afterPath="$PROJECT_DIR$/View/Notes/NotesViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" afterPath="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift" afterPath="$PROJECT_DIR$/ViewModel/Note/NoteViewModel.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewModel/User/UserViewModel.swift" afterPath="$PROJECT_DIR$/ViewModel/User/UserViewModel.swift" />
     </list>
     <ignored path="Notes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,11 +58,9 @@
         <entry file="file://$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
-                <marker date="1463214308000" expanded="true" signature="0:106" placeholder="//..." />
-                <marker date="1463214308000" expanded="false" signature="1174:1180" placeholder="{...}" />
-                <marker date="1463214308000" expanded="true" signature="1174:1183" placeholder="{...}" />
+                <marker date="1463226409000" expanded="true" signature="0:106" placeholder="//..." />
               </folding>
             </state>
           </provider>
@@ -129,11 +110,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotesViewController.swift" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NotesViewController.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/Notes/NotesViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="437">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteCell.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/View/Cells/NoteCell.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,16 +135,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/Entities/JSONS/User.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -192,10 +173,10 @@
         <option value="$PROJECT_DIR$/ViewModel/Base/ViewModel.swift" />
         <option value="$PROJECT_DIR$/ViewModel/Note/NoteListViewModel.swift" />
         <option value="$PROJECT_DIR$/View/Login/LoginViewController.swift" />
-        <option value="$PROJECT_DIR$/View/Notes/NotesViewController.swift" />
         <option value="$PROJECT_DIR$/Notes/Injection/InjectionAssembly.swift" />
         <option value="$PROJECT_DIR$/Notes/Injection/UserAssembly.swift" />
         <option value="$PROJECT_DIR$/Notes/Injection/NoteAssembly.swift" />
+        <option value="$PROJECT_DIR$/View/Notes/NotesViewController.swift" />
       </list>
     </option>
   </component>
@@ -276,103 +257,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NotesTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Injection" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="Cells" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,14 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model/Entities/JSONS/NoteList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Entities/JSONS/User.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -635,9 +512,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1463214308000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1463214308000" expanded="false" signature="1174:1180" placeholder="{...}" />
-            <marker date="1463214308000" expanded="true" signature="1174:1183" placeholder="{...}" />
+            <marker date="1463226409000" expanded="true" signature="0:106" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -805,11 +680,9 @@
     <entry file="file://$PROJECT_DIR$/Model/Services/NoteServicing/NoteMockService.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <marker date="1463214308000" expanded="true" signature="0:106" placeholder="//..." />
-            <marker date="1463214308000" expanded="false" signature="1174:1180" placeholder="{...}" />
-            <marker date="1463214308000" expanded="true" signature="1174:1183" placeholder="{...}" />
+            <marker date="1463226409000" expanded="true" signature="0:106" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -870,8 +743,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/View/Notes/NotesViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Cells/NoteCell.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

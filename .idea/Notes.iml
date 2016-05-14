@@ -27,12 +27,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/WebServiceSupporters/BaseWebService.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Services/WebServiceSupporters/Networking.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Model/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/View/Login/LoginViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/Cells/NoteCell.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/View/View.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/View/InitialViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/View/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/View/Base/BaseViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/View/Notes/NotesViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/View/Login/LoginViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Notes/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Notes/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Notes/Info.plist" isTestSource="false" />
